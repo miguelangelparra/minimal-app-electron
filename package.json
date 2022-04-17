@@ -23,14 +23,15 @@
   },
   "config": {
     "forge": {
-
-      "packagerConfig": {"icon":"./build/avocado"},
+      "packagerConfig": {
+        "icon": "./build/avocado"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "setupIcon":"./build/avocado.ico",
-            "name": "minimal_app_electron"
+            "name": "minimal_app_electron",
+            "setupIcon": "./build/avocado.ico"
           }
         },
         {
