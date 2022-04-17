@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Minimal Application - Electron</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>We are making a Minimal Application to use Electron Framework</p>
+    <h3>Some Dependencies that we use:</h3>
+    <ul>
+      <li>NodeJS: <span id="node-version"></span></li>
+      <li>Chromium: <span id="chrome-version"></span></li>
+      <li>Electro: <span id="electron-version"></span></li>
+    </ul>
+  </body>
+</html>
